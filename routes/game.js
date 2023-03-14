@@ -1,5 +1,5 @@
 const express = require("express");
-const { GameModel, validateGame } = require("../models/GameModel");
+const { GameModel , validateGame } = require("../models/gameModel");
 const { auth } = require("../middlewares/auth");
 const router = express.Router();
 const {error} = require("../json/msg.js")
