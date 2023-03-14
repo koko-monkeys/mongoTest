@@ -1,0 +1,9 @@
+const init = () => {
+copyContent();
+}
+
+
+
+
+
+init();
