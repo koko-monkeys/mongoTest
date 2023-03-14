@@ -1,9 +1,8 @@
 const express = require("express");
 const router = express.Router();
 
-router.get("/game", (req, res) => {
-  res.sand(path.join(__dirname, "../public/index.html"));
-});
-
+router.get("/", async (req, res) => {
+  res.json({ msg: "Express Index Is Working. " });
+})
 
 module.exports = router;
